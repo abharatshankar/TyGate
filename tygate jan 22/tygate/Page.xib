@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="Page" customModule="tygate" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="burn" translatesAutoresizingMaskIntoConstraints="NO" id="GKj-1Q-UbL">
+                    <rect key="frame" x="33" y="200" width="307" height="192"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="GKj-1Q-UbL" secondAttribute="height" multiplier="207:130" constant="1.276923076923083" id="QER-SO-h77"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="GKj-1Q-UbL" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="180" id="AiK-Bg-mdM"/>
+                <constraint firstItem="GKj-1Q-UbL" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" constant="-1" id="F7x-Yp-pJl"/>
+                <constraint firstItem="GKj-1Q-UbL" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" constant="-68" id="qSw-Wa-Lf0"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="pageImage" destination="GKj-1Q-UbL" id="zKw-8k-mgw"/>
+            </connections>
+            <point key="canvasLocation" x="133.59999999999999" y="113.79310344827587"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="burn" width="5049" height="3557"/>
+    </resources>
+</document>

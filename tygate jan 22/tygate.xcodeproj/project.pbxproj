@@ -1,0 +1,909 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A6F3B5621F70C1D007DCF3D /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F3B5521F70C1D007DCF3D /* PageViewController.swift */; };
+		3A6F3B5921F70C5C007DCF3D /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F3B5721F70C5C007DCF3D /* Page.swift */; };
+		3A6F3B5A21F70C5C007DCF3D /* Page.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A6F3B5821F70C5C007DCF3D /* Page.xib */; };
+		5D0459075DD68F82BACD1673 /* Pods_tygate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710642573E6B93B207CCE660 /* Pods_tygate.framework */; };
+		5E45947421F9DF8F00C7108A /* StaredJobsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E45947321F9DF8F00C7108A /* StaredJobsVC.swift */; };
+		5E45947621F9DFFF00C7108A /* StaredTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E45947521F9DFFF00C7108A /* StaredTableViewCell.swift */; };
+		5E45947821F9E95B00C7108A /* NotificationJobsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E45947721F9E95B00C7108A /* NotificationJobsVC.swift */; };
+		5E45947A21F9E97400C7108A /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E45947921F9E97400C7108A /* NotificationTableViewCell.swift */; };
+		5E45947C21F9F36400C7108A /* JobDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E45947B21F9F36400C7108A /* JobDetailsVC.swift */; };
+		6B13FD3221FAD56E004BF86D /* experienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B13FD3121FAD56E004BF86D /* experienceViewController.swift */; };
+		6B13FD3421FB080D004BF86D /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B13FD3321FB080D004BF86D /* profileViewController.swift */; };
+		6B1ACC5821FC2F8E003DA307 /* recentTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1ACC5721FC2F8E003DA307 /* recentTabViewController.swift */; };
+		6B1ACC5A21FC2FA2003DA307 /* recomendedTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1ACC5921FC2FA2003DA307 /* recomendedTabViewController.swift */; };
+		6B1ACC5C21FC5303003DA307 /* recentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1ACC5B21FC5303003DA307 /* recentTableViewCell.swift */; };
+		6B1ACC5E21FC6BB1003DA307 /* CustomSegmentedContrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1ACC5D21FC6BB0003DA307 /* CustomSegmentedContrl.swift */; };
+		6B1ACC6121FD64E8003DA307 /* icons8-christmas-star-500.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B1ACC5F21FD64E8003DA307 /* icons8-christmas-star-500.png */; };
+		6B1ACC6221FD64E8003DA307 /* icons8-christmas-star-filled-500.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B1ACC6021FD64E8003DA307 /* icons8-christmas-star-filled-500.png */; };
+		6B1ACC6421FD79FB003DA307 /* icons8-marker-filled-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B1ACC6321FD79F8003DA307 /* icons8-marker-filled-100.png */; };
+		6B1ADC2E2200589100DE1337 /* educationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1ADC2D2200589100DE1337 /* educationViewController.swift */; };
+		6B1ADC30220058C100DE1337 /* preferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1ADC2F220058C100DE1337 /* preferencesViewController.swift */; };
+		6B1ADC32220058F300DE1337 /* expViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1ADC31220058F300DE1337 /* expViewController.swift */; };
+		6B1ADC3422005B7900DE1337 /* educationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1ADC3322005B7800DE1337 /* educationTableViewCell.swift */; };
+		6B1ADC382200608C00DE1337 /* educationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1ADC372200608C00DE1337 /* educationDetailsViewController.swift */; };
+		6B2019F921F98C810081C8DE /* homeJobsTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2019F821F98C810081C8DE /* homeJobsTabVC.swift */; };
+		6B2019FB21F98CDB0081C8DE /* SJSegmentedScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2019FA21F98CDB0081C8DE /* SJSegmentedScrollView.framework */; };
+		6B2019FD21F98F360081C8DE /* HeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2019FC21F98F360081C8DE /* HeaderViewController.swift */; };
+		6B201A0121F991440081C8DE /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2019FE21F991440081C8DE /* FirstTableViewController.swift */; };
+		6B201A0321F991440081C8DE /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B201A0021F991440081C8DE /* ThirdViewController.swift */; };
+		6B201A0521F9C8890081C8DE /* nearByCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B201A0421F9C8890081C8DE /* nearByCellTableViewCell.swift */; };
+		6B201A0721F9CBFC0081C8DE /* jobVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B201A0621F9CBFC0081C8DE /* jobVC.swift */; };
+		6B2702A821F58BB800B458AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2702A721F58BB800B458AD /* AppDelegate.swift */; };
+		6B2702AA21F58BB800B458AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2702A921F58BB800B458AD /* ViewController.swift */; };
+		6B2702AD21F58BB800B458AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B2702AB21F58BB800B458AD /* Main.storyboard */; };
+		6B2702B021F58BB800B458AD /* tygate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6B2702AE21F58BB800B458AD /* tygate.xcdatamodeld */; };
+		6B2702B221F58BBB00B458AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B2702B121F58BBB00B458AD /* Assets.xcassets */; };
+		6B2702B521F58BBB00B458AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B2702B321F58BBB00B458AD /* LaunchScreen.storyboard */; };
+		6B2702C021F58BBC00B458AD /* tygateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2702BF21F58BBC00B458AD /* tygateTests.swift */; };
+		6B2702CB21F58BBC00B458AD /* tygateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2702CA21F58BBC00B458AD /* tygateUITests.swift */; };
+		6B2702D921F5E16300B458AD /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2702D821F5E16300B458AD /* signUpViewController.swift */; };
+		6B2702DB21F5F74D00B458AD /* forgotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2702DA21F5F74D00B458AD /* forgotViewController.swift */; };
+		6B2702DD21F5FB9900B458AD /* otpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2702DC21F5FB9900B458AD /* otpViewController.swift */; };
+		6B90504E21FC090B002A7464 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B90504C21FC090A002A7464 /* ContainerViewController.swift */; };
+		6B90504F21FC090B002A7464 /* EmptySegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B90504D21FC090B002A7464 /* EmptySegue.swift */; };
+		6B90505121FC093F002A7464 /* landedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B90505021FC093F002A7464 /* landedViewController.swift */; };
+		6BF20B8B21F7112200CB3B11 /* NotificationNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF20B8721F7112200CB3B11 /* NotificationNames.swift */; };
+		6BF20B8C21F7112200CB3B11 /* WebserviceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF20B8821F7112200CB3B11 /* WebserviceController.swift */; };
+		6BF20B8D21F7112200CB3B11 /* DefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF20B8921F7112200CB3B11 /* DefaultsHelper.swift */; };
+		6BF20B8E21F7112200CB3B11 /* URLS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF20B8A21F7112200CB3B11 /* URLS.swift */; };
+		6BF20B9721F7167100CB3B11 /* gplus_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF20B9021F7167100CB3B11 /* gplus_icon.png */; };
+		6BF20B9821F7167100CB3B11 /* back_option.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF20B9121F7167100CB3B11 /* back_option.png */; };
+		6BF20B9921F7167100CB3B11 /* nxt_option.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF20B9221F7167100CB3B11 /* nxt_option.png */; };
+		6BF20B9A21F7167100CB3B11 /* tygate_logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF20B9321F7167100CB3B11 /* tygate_logo2.png */; };
+		6BF20B9B21F7167100CB3B11 /* view_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF20B9421F7167100CB3B11 /* view_icon.png */; };
+		6BF20B9C21F7167100CB3B11 /* tygate_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF20B9521F7167100CB3B11 /* tygate_logo.png */; };
+		6BF20B9D21F7167100CB3B11 /* fb_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF20B9621F7167100CB3B11 /* fb_icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B2702BC21F58BBC00B458AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B27029C21F58BB800B458AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B2702A321F58BB800B458AD;
+			remoteInfo = tygate;
+		};
+		6B2702C721F58BBC00B458AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B27029C21F58BB800B458AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B2702A321F58BB800B458AD;
+			remoteInfo = tygate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1337D853DB19CBCBAE0B5FAF /* Pods_tygateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tygateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16DA613A513E2AACB3DCEAA6 /* Pods-tygate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tygate.release.xcconfig"; path = "Pods/Target Support Files/Pods-tygate/Pods-tygate.release.xcconfig"; sourceTree = "<group>"; };
+		3A6F3B5521F70C1D007DCF3D /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		3A6F3B5721F70C5C007DCF3D /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		3A6F3B5821F70C5C007DCF3D /* Page.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Page.xib; sourceTree = "<group>"; };
+		45CDA5B960EA49DD64A2BE63 /* Pods-tygate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tygate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tygate/Pods-tygate.debug.xcconfig"; sourceTree = "<group>"; };
+		5E45947321F9DF8F00C7108A /* StaredJobsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaredJobsVC.swift; sourceTree = "<group>"; };
+		5E45947521F9DFFF00C7108A /* StaredTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaredTableViewCell.swift; sourceTree = "<group>"; };
+		5E45947721F9E95B00C7108A /* NotificationJobsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationJobsVC.swift; sourceTree = "<group>"; };
+		5E45947921F9E97400C7108A /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
+		5E45947B21F9F36400C7108A /* JobDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailsVC.swift; sourceTree = "<group>"; };
+		6B13FD3121FAD56E004BF86D /* experienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = experienceViewController.swift; sourceTree = "<group>"; };
+		6B13FD3321FB080D004BF86D /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+		6B1ACC5721FC2F8E003DA307 /* recentTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recentTabViewController.swift; sourceTree = "<group>"; };
+		6B1ACC5921FC2FA2003DA307 /* recomendedTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recomendedTabViewController.swift; sourceTree = "<group>"; };
+		6B1ACC5B21FC5303003DA307 /* recentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recentTableViewCell.swift; sourceTree = "<group>"; };
+		6B1ACC5D21FC6BB0003DA307 /* CustomSegmentedContrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegmentedContrl.swift; sourceTree = "<group>"; };
+		6B1ACC5F21FD64E8003DA307 /* icons8-christmas-star-500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-christmas-star-500.png"; sourceTree = "<group>"; };
+		6B1ACC6021FD64E8003DA307 /* icons8-christmas-star-filled-500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-christmas-star-filled-500.png"; sourceTree = "<group>"; };
+		6B1ACC6321FD79F8003DA307 /* icons8-marker-filled-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-marker-filled-100.png"; sourceTree = "<group>"; };
+		6B1ADC2D2200589100DE1337 /* educationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = educationViewController.swift; sourceTree = "<group>"; };
+		6B1ADC2F220058C100DE1337 /* preferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = preferencesViewController.swift; sourceTree = "<group>"; };
+		6B1ADC31220058F300DE1337 /* expViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = expViewController.swift; sourceTree = "<group>"; };
+		6B1ADC3322005B7800DE1337 /* educationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = educationTableViewCell.swift; sourceTree = "<group>"; };
+		6B1ADC372200608C00DE1337 /* educationDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = educationDetailsViewController.swift; sourceTree = "<group>"; };
+		6B2019F821F98C810081C8DE /* homeJobsTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeJobsTabVC.swift; sourceTree = "<group>"; };
+		6B2019FA21F98CDB0081C8DE /* SJSegmentedScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SJSegmentedScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B2019FC21F98F360081C8DE /* HeaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderViewController.swift; sourceTree = "<group>"; };
+		6B2019FE21F991440081C8DE /* FirstTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
+		6B201A0021F991440081C8DE /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		6B201A0421F9C8890081C8DE /* nearByCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nearByCellTableViewCell.swift; sourceTree = "<group>"; };
+		6B201A0621F9CBFC0081C8DE /* jobVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jobVC.swift; sourceTree = "<group>"; };
+		6B2702A421F58BB800B458AD /* tygate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tygate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B2702A721F58BB800B458AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B2702A921F58BB800B458AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B2702AC21F58BB800B458AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B2702AF21F58BB800B458AD /* tygate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tygate.xcdatamodel; sourceTree = "<group>"; };
+		6B2702B121F58BBB00B458AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B2702B421F58BBB00B458AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B2702B621F58BBB00B458AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B2702BB21F58BBC00B458AD /* tygateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tygateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B2702BF21F58BBC00B458AD /* tygateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tygateTests.swift; sourceTree = "<group>"; };
+		6B2702C121F58BBC00B458AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B2702C621F58BBC00B458AD /* tygateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tygateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B2702CA21F58BBC00B458AD /* tygateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tygateUITests.swift; sourceTree = "<group>"; };
+		6B2702CC21F58BBC00B458AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B2702D821F5E16300B458AD /* signUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
+		6B2702DA21F5F74D00B458AD /* forgotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgotViewController.swift; sourceTree = "<group>"; };
+		6B2702DC21F5FB9900B458AD /* otpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = otpViewController.swift; sourceTree = "<group>"; };
+		6B90504C21FC090A002A7464 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		6B90504D21FC090B002A7464 /* EmptySegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptySegue.swift; sourceTree = "<group>"; };
+		6B90505021FC093F002A7464 /* landedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = landedViewController.swift; sourceTree = "<group>"; };
+		6BF20B8721F7112200CB3B11 /* NotificationNames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationNames.swift; sourceTree = "<group>"; };
+		6BF20B8821F7112200CB3B11 /* WebserviceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebserviceController.swift; sourceTree = "<group>"; };
+		6BF20B8921F7112200CB3B11 /* DefaultsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultsHelper.swift; sourceTree = "<group>"; };
+		6BF20B8A21F7112200CB3B11 /* URLS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLS.swift; sourceTree = "<group>"; };
+		6BF20B9021F7167100CB3B11 /* gplus_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gplus_icon.png; sourceTree = "<group>"; };
+		6BF20B9121F7167100CB3B11 /* back_option.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_option.png; sourceTree = "<group>"; };
+		6BF20B9221F7167100CB3B11 /* nxt_option.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nxt_option.png; sourceTree = "<group>"; };
+		6BF20B9321F7167100CB3B11 /* tygate_logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tygate_logo2.png; sourceTree = "<group>"; };
+		6BF20B9421F7167100CB3B11 /* view_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = view_icon.png; sourceTree = "<group>"; };
+		6BF20B9521F7167100CB3B11 /* tygate_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tygate_logo.png; sourceTree = "<group>"; };
+		6BF20B9621F7167100CB3B11 /* fb_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb_icon.png; sourceTree = "<group>"; };
+		710642573E6B93B207CCE660 /* Pods_tygate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tygate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85F89C547D0EB81A05F710B /* Pods_tygateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tygateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B2702A121F58BB800B458AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2019FB21F98CDB0081C8DE /* SJSegmentedScrollView.framework in Frameworks */,
+				5D0459075DD68F82BACD1673 /* Pods_tygate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2702B821F58BBC00B458AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2702C321F58BBC00B458AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B1ACC6521FD7E64003DA307 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				6B2702DA21F5F74D00B458AD /* forgotViewController.swift */,
+				6B2702DC21F5FB9900B458AD /* otpViewController.swift */,
+				3A6F3B5521F70C1D007DCF3D /* PageViewController.swift */,
+				6B2702D821F5E16300B458AD /* signUpViewController.swift */,
+				6B2702A921F58BB800B458AD /* ViewController.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		6B1ACC6621FD7F2D003DA307 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				5E45947521F9DFFF00C7108A /* StaredTableViewCell.swift */,
+				5E45947921F9E97400C7108A /* NotificationTableViewCell.swift */,
+				5E45947721F9E95B00C7108A /* NotificationJobsVC.swift */,
+				5E45947321F9DF8F00C7108A /* StaredJobsVC.swift */,
+				6B90505021FC093F002A7464 /* landedViewController.swift */,
+				6B13FD3321FB080D004BF86D /* profileViewController.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		6B1ACC6721FD7FDC003DA307 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				6B90504C21FC090A002A7464 /* ContainerViewController.swift */,
+				6B90504D21FC090B002A7464 /* EmptySegue.swift */,
+				6B1ACC5D21FC6BB0003DA307 /* CustomSegmentedContrl.swift */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		6B27029B21F58BB800B458AD = {
+			isa = PBXGroup;
+			children = (
+				6B2702A621F58BB800B458AD /* tygate */,
+				6B2702BE21F58BBC00B458AD /* tygateTests */,
+				6B2702C921F58BBC00B458AD /* tygateUITests */,
+				6B2702A521F58BB800B458AD /* Products */,
+				94109774040E30D701D80B56 /* Pods */,
+				8B5C296093CB854F269D6F41 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6B2702A521F58BB800B458AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B2702A421F58BB800B458AD /* tygate.app */,
+				6B2702BB21F58BBC00B458AD /* tygateTests.xctest */,
+				6B2702C621F58BBC00B458AD /* tygateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B2702A621F58BB800B458AD /* tygate */ = {
+			isa = PBXGroup;
+			children = (
+				6B2702A721F58BB800B458AD /* AppDelegate.swift */,
+				6B1ACC6521FD7E64003DA307 /* Registration */,
+				6B2019F821F98C810081C8DE /* homeJobsTabVC.swift */,
+				6B1ACC6621FD7F2D003DA307 /* Tabs */,
+				5E45947B21F9F36400C7108A /* JobDetailsVC.swift */,
+				6B2019FC21F98F360081C8DE /* HeaderViewController.swift */,
+				6B2019FE21F991440081C8DE /* FirstTableViewController.swift */,
+				6B201A0021F991440081C8DE /* ThirdViewController.swift */,
+				6B201A0421F9C8890081C8DE /* nearByCellTableViewCell.swift */,
+				6B201A0621F9CBFC0081C8DE /* jobVC.swift */,
+				6B13FD3121FAD56E004BF86D /* experienceViewController.swift */,
+				6B1ACC5721FC2F8E003DA307 /* recentTabViewController.swift */,
+				6B1ACC5921FC2FA2003DA307 /* recomendedTabViewController.swift */,
+				6B1ACC5B21FC5303003DA307 /* recentTableViewCell.swift */,
+				6B1ADC2D2200589100DE1337 /* educationViewController.swift */,
+				6B1ADC3322005B7800DE1337 /* educationTableViewCell.swift */,
+				6B1ADC372200608C00DE1337 /* educationDetailsViewController.swift */,
+				6B1ADC2F220058C100DE1337 /* preferencesViewController.swift */,
+				6B1ADC31220058F300DE1337 /* expViewController.swift */,
+				6B1ACC6721FD7FDC003DA307 /* ThirdParty */,
+				6BF20B8F21F7167100CB3B11 /* icons */,
+				6BF20B8621F7112200CB3B11 /* web service */,
+				6B2702AB21F58BB800B458AD /* Main.storyboard */,
+				6B2702B121F58BBB00B458AD /* Assets.xcassets */,
+				3A6F3B5721F70C5C007DCF3D /* Page.swift */,
+				3A6F3B5821F70C5C007DCF3D /* Page.xib */,
+				6B2702B321F58BBB00B458AD /* LaunchScreen.storyboard */,
+				6B2702B621F58BBB00B458AD /* Info.plist */,
+				6B2702AE21F58BB800B458AD /* tygate.xcdatamodeld */,
+			);
+			path = tygate;
+			sourceTree = "<group>";
+		};
+		6B2702BE21F58BBC00B458AD /* tygateTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B2702BF21F58BBC00B458AD /* tygateTests.swift */,
+				6B2702C121F58BBC00B458AD /* Info.plist */,
+			);
+			path = tygateTests;
+			sourceTree = "<group>";
+		};
+		6B2702C921F58BBC00B458AD /* tygateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6B2702CA21F58BBC00B458AD /* tygateUITests.swift */,
+				6B2702CC21F58BBC00B458AD /* Info.plist */,
+			);
+			path = tygateUITests;
+			sourceTree = "<group>";
+		};
+		6BF20B8621F7112200CB3B11 /* web service */ = {
+			isa = PBXGroup;
+			children = (
+				6BF20B8721F7112200CB3B11 /* NotificationNames.swift */,
+				6BF20B8821F7112200CB3B11 /* WebserviceController.swift */,
+				6BF20B8921F7112200CB3B11 /* DefaultsHelper.swift */,
+				6BF20B8A21F7112200CB3B11 /* URLS.swift */,
+			);
+			path = "web service";
+			sourceTree = "<group>";
+		};
+		6BF20B8F21F7167100CB3B11 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				6BF20B9021F7167100CB3B11 /* gplus_icon.png */,
+				6BF20B9121F7167100CB3B11 /* back_option.png */,
+				6BF20B9221F7167100CB3B11 /* nxt_option.png */,
+				6BF20B9321F7167100CB3B11 /* tygate_logo2.png */,
+				6BF20B9421F7167100CB3B11 /* view_icon.png */,
+				6BF20B9521F7167100CB3B11 /* tygate_logo.png */,
+				6BF20B9621F7167100CB3B11 /* fb_icon.png */,
+				6B1ACC5F21FD64E8003DA307 /* icons8-christmas-star-500.png */,
+				6B1ACC6021FD64E8003DA307 /* icons8-christmas-star-filled-500.png */,
+				6B1ACC6321FD79F8003DA307 /* icons8-marker-filled-100.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		8B5C296093CB854F269D6F41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B2019FA21F98CDB0081C8DE /* SJSegmentedScrollView.framework */,
+				710642573E6B93B207CCE660 /* Pods_tygate.framework */,
+				1337D853DB19CBCBAE0B5FAF /* Pods_tygateTests.framework */,
+				D85F89C547D0EB81A05F710B /* Pods_tygateUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94109774040E30D701D80B56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45CDA5B960EA49DD64A2BE63 /* Pods-tygate.debug.xcconfig */,
+				16DA613A513E2AACB3DCEAA6 /* Pods-tygate.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B2702A321F58BB800B458AD /* tygate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B2702CF21F58BBC00B458AD /* Build configuration list for PBXNativeTarget "tygate" */;
+			buildPhases = (
+				78A2FF07479B3034CB56ADE9 /* [CP] Check Pods Manifest.lock */,
+				6B2702A021F58BB800B458AD /* Sources */,
+				6B2702A121F58BB800B458AD /* Frameworks */,
+				6B2702A221F58BB800B458AD /* Resources */,
+				44F2E9301E57B1ED9BED4A62 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tygate;
+			productName = tygate;
+			productReference = 6B2702A421F58BB800B458AD /* tygate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B2702BA21F58BBC00B458AD /* tygateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B2702D221F58BBC00B458AD /* Build configuration list for PBXNativeTarget "tygateTests" */;
+			buildPhases = (
+				6B2702B721F58BBC00B458AD /* Sources */,
+				6B2702B821F58BBC00B458AD /* Frameworks */,
+				6B2702B921F58BBC00B458AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B2702BD21F58BBC00B458AD /* PBXTargetDependency */,
+			);
+			name = tygateTests;
+			productName = tygateTests;
+			productReference = 6B2702BB21F58BBC00B458AD /* tygateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6B2702C521F58BBC00B458AD /* tygateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B2702D521F58BBC00B458AD /* Build configuration list for PBXNativeTarget "tygateUITests" */;
+			buildPhases = (
+				6B2702C221F58BBC00B458AD /* Sources */,
+				6B2702C321F58BBC00B458AD /* Frameworks */,
+				6B2702C421F58BBC00B458AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B2702C821F58BBC00B458AD /* PBXTargetDependency */,
+			);
+			name = tygateUITests;
+			productName = tygateUITests;
+			productReference = 6B2702C621F58BBC00B458AD /* tygateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B27029C21F58BB800B458AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Bharat shankar";
+				TargetAttributes = {
+					6B2702A321F58BB800B458AD = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					6B2702BA21F58BBC00B458AD = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6B2702A321F58BB800B458AD;
+					};
+					6B2702C521F58BBC00B458AD = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6B2702A321F58BB800B458AD;
+					};
+				};
+			};
+			buildConfigurationList = 6B27029F21F58BB800B458AD /* Build configuration list for PBXProject "tygate" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B27029B21F58BB800B458AD;
+			productRefGroup = 6B2702A521F58BB800B458AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B2702A321F58BB800B458AD /* tygate */,
+				6B2702BA21F58BBC00B458AD /* tygateTests */,
+				6B2702C521F58BBC00B458AD /* tygateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B2702A221F58BB800B458AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF20B9B21F7167100CB3B11 /* view_icon.png in Resources */,
+				6B2702B521F58BBB00B458AD /* LaunchScreen.storyboard in Resources */,
+				6BF20B9921F7167100CB3B11 /* nxt_option.png in Resources */,
+				6BF20B9821F7167100CB3B11 /* back_option.png in Resources */,
+				6B1ACC6121FD64E8003DA307 /* icons8-christmas-star-500.png in Resources */,
+				6B1ACC6221FD64E8003DA307 /* icons8-christmas-star-filled-500.png in Resources */,
+				6BF20B9A21F7167100CB3B11 /* tygate_logo2.png in Resources */,
+				6BF20B9D21F7167100CB3B11 /* fb_icon.png in Resources */,
+				6B2702B221F58BBB00B458AD /* Assets.xcassets in Resources */,
+				6BF20B9C21F7167100CB3B11 /* tygate_logo.png in Resources */,
+				3A6F3B5A21F70C5C007DCF3D /* Page.xib in Resources */,
+				6BF20B9721F7167100CB3B11 /* gplus_icon.png in Resources */,
+				6B2702AD21F58BB800B458AD /* Main.storyboard in Resources */,
+				6B1ACC6421FD79FB003DA307 /* icons8-marker-filled-100.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2702B921F58BBC00B458AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2702C421F58BBC00B458AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44F2E9301E57B1ED9BED4A62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-tygate/Pods-tygate-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SJSegmentedScrollView/SJSegmentedScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SJSegmentedScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tygate/Pods-tygate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78A2FF07479B3034CB56ADE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tygate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B2702A021F58BB800B458AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B13FD3421FB080D004BF86D /* profileViewController.swift in Sources */,
+				6B1ACC5A21FC2FA2003DA307 /* recomendedTabViewController.swift in Sources */,
+				6B201A0521F9C8890081C8DE /* nearByCellTableViewCell.swift in Sources */,
+				5E45947821F9E95B00C7108A /* NotificationJobsVC.swift in Sources */,
+				6B1ADC32220058F300DE1337 /* expViewController.swift in Sources */,
+				6B90504F21FC090B002A7464 /* EmptySegue.swift in Sources */,
+				6B201A0321F991440081C8DE /* ThirdViewController.swift in Sources */,
+				6B2702AA21F58BB800B458AD /* ViewController.swift in Sources */,
+				6B2019FD21F98F360081C8DE /* HeaderViewController.swift in Sources */,
+				6B90504E21FC090B002A7464 /* ContainerViewController.swift in Sources */,
+				6B1ADC30220058C100DE1337 /* preferencesViewController.swift in Sources */,
+				3A6F3B5621F70C1D007DCF3D /* PageViewController.swift in Sources */,
+				5E45947C21F9F36400C7108A /* JobDetailsVC.swift in Sources */,
+				3A6F3B5921F70C5C007DCF3D /* Page.swift in Sources */,
+				6B13FD3221FAD56E004BF86D /* experienceViewController.swift in Sources */,
+				6B201A0721F9CBFC0081C8DE /* jobVC.swift in Sources */,
+				6B2702A821F58BB800B458AD /* AppDelegate.swift in Sources */,
+				6BF20B8B21F7112200CB3B11 /* NotificationNames.swift in Sources */,
+				6BF20B8D21F7112200CB3B11 /* DefaultsHelper.swift in Sources */,
+				6B2702D921F5E16300B458AD /* signUpViewController.swift in Sources */,
+				6BF20B8E21F7112200CB3B11 /* URLS.swift in Sources */,
+				6B1ACC5E21FC6BB1003DA307 /* CustomSegmentedContrl.swift in Sources */,
+				6BF20B8C21F7112200CB3B11 /* WebserviceController.swift in Sources */,
+				6B1ADC2E2200589100DE1337 /* educationViewController.swift in Sources */,
+				6B2702B021F58BB800B458AD /* tygate.xcdatamodeld in Sources */,
+				5E45947A21F9E97400C7108A /* NotificationTableViewCell.swift in Sources */,
+				5E45947421F9DF8F00C7108A /* StaredJobsVC.swift in Sources */,
+				6B1ACC5C21FC5303003DA307 /* recentTableViewCell.swift in Sources */,
+				6B2702DD21F5FB9900B458AD /* otpViewController.swift in Sources */,
+				6B1ADC382200608C00DE1337 /* educationDetailsViewController.swift in Sources */,
+				5E45947621F9DFFF00C7108A /* StaredTableViewCell.swift in Sources */,
+				6B1ADC3422005B7900DE1337 /* educationTableViewCell.swift in Sources */,
+				6B2702DB21F5F74D00B458AD /* forgotViewController.swift in Sources */,
+				6B2019F921F98C810081C8DE /* homeJobsTabVC.swift in Sources */,
+				6B1ACC5821FC2F8E003DA307 /* recentTabViewController.swift in Sources */,
+				6B201A0121F991440081C8DE /* FirstTableViewController.swift in Sources */,
+				6B90505121FC093F002A7464 /* landedViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2702B721F58BBC00B458AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2702C021F58BBC00B458AD /* tygateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2702C221F58BBC00B458AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2702CB21F58BBC00B458AD /* tygateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B2702BD21F58BBC00B458AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B2702A321F58BB800B458AD /* tygate */;
+			targetProxy = 6B2702BC21F58BBC00B458AD /* PBXContainerItemProxy */;
+		};
+		6B2702C821F58BBC00B458AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B2702A321F58BB800B458AD /* tygate */;
+			targetProxy = 6B2702C721F58BBC00B458AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B2702AB21F58BB800B458AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B2702AC21F58BB800B458AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B2702B321F58BBB00B458AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B2702B421F58BBB00B458AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B2702CD21F58BBC00B458AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B2702CE21F58BBC00B458AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B2702D021F58BBC00B458AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45CDA5B960EA49DD64A2BE63 /* Pods-tygate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9L2WC6C4XD;
+				INFOPLIST_FILE = tygate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = possibilliontech.tygate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B2702D121F58BBC00B458AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16DA613A513E2AACB3DCEAA6 /* Pods-tygate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9L2WC6C4XD;
+				INFOPLIST_FILE = tygate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = possibilliontech.tygate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6B2702D321F58BBC00B458AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tygateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = possibilliontech.tygateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tygate.app/tygate";
+			};
+			name = Debug;
+		};
+		6B2702D421F58BBC00B458AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tygateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = possibilliontech.tygateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tygate.app/tygate";
+			};
+			name = Release;
+		};
+		6B2702D621F58BBC00B458AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tygateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = possibilliontech.tygateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tygate;
+			};
+			name = Debug;
+		};
+		6B2702D721F58BBC00B458AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tygateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = possibilliontech.tygateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tygate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B27029F21F58BB800B458AD /* Build configuration list for PBXProject "tygate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B2702CD21F58BBC00B458AD /* Debug */,
+				6B2702CE21F58BBC00B458AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B2702CF21F58BBC00B458AD /* Build configuration list for PBXNativeTarget "tygate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B2702D021F58BBC00B458AD /* Debug */,
+				6B2702D121F58BBC00B458AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B2702D221F58BBC00B458AD /* Build configuration list for PBXNativeTarget "tygateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B2702D321F58BBC00B458AD /* Debug */,
+				6B2702D421F58BBC00B458AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B2702D521F58BBC00B458AD /* Build configuration list for PBXNativeTarget "tygateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B2702D621F58BBC00B458AD /* Debug */,
+				6B2702D721F58BBC00B458AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6B2702AE21F58BB800B458AD /* tygate.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6B2702AF21F58BB800B458AD /* tygate.xcdatamodel */,
+			);
+			currentVersion = 6B2702AF21F58BB800B458AD /* tygate.xcdatamodel */;
+			path = tygate.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6B27029C21F58BB800B458AD /* Project object */;
+}

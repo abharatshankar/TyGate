@@ -1,0 +1,6 @@
+framework module Pods_tygate {
+  umbrella header "Pods-tygate-umbrella.h"
+
+  export *
+  module * { export * }
+}
